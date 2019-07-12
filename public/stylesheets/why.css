@@ -1,0 +1,58 @@
+@font-face {
+
+  font-family : 'Indie';
+  src : url('../fonts/flower.ttf') format('truetype');
+}
+
+@font-face {
+
+  font-family : 'Pacific';
+  src : url('../fonts/pacific.ttf') format('truetype');
+}
+
+@font-face {
+
+  font-family : 'Arvo';
+  src : url('../fonts/Arvo/Arvo.ttf') format('truetype');
+}
+
+@font-face {
+
+  font-family : 'DM Sans';
+  src : url('../fonts/DM_Sans/DMSans.ttf') format('truetype');
+}
+
+@font-face {
+
+  font-family : 'Dosis';
+  src : url('../fonts/Dosis/Dosis.ttf') format('truetype');
+}
+
+@font-face {
+
+  font-family : 'Hind';
+  src : url('../fonts/Hind/Hind.ttf') format('truetype');
+}
+
+@font-face {
+
+  font-family : 'Josefin Sans';
+  src : url('../fonts/Josefin_Sans/JosefinSans.ttf') format('truetype');
+}
+
+@font-face {
+
+  font-family : 'Libre Baskerville';
+  src : url('../fonts/Libre_Baskerville/LibreBaskervile.ttf') format('truetype');
+}
+
+@font-face {
+
+  font-family : 'Nanum Gothic';
+  src : url('../fonts/Nanum_Gothic/NanumGothic.ttf') format('truetype');
+}
+
+
+p {
+    font-size : 3em !important;
+}

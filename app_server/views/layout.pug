@@ -1,0 +1,56 @@
+doctype html
+html
+	head
+		title= title
+		meta(name ='viewport' 		, content ='width=device-width , initial-scale=1.0')
+		link(rel='stylesheet'			, href='/stylesheets/style.css')
+		link(rel ='stylesheets' 	 href ='/stylesheets/bootstrap.min.css')
+
+  
+	body
+
+		.o-container
+			.container
+				.header
+					.navbar
+						ul
+							li.nav-item
+								a.nav-link(href='/') N.c.l
+							li.nav-item
+								a.nav-link(href='/about/') About
+							li.nav-item
+								a.nav-link(href='/contact/') Contact
+							li.nav-item
+								a.nav-link(href='/services/') Services
+
+				
+				.main
+					block content
+
+				.footer
+
+					.contact
+						ul
+							li
+								p
+									b Address : <br/>
+									| No. 72 , Niteco Road Tunga , <br/>
+									| Minna , Niger State.
+
+							li
+								p 
+									b Contact : <br/>
+									| Telephone Number <i class='tel telephone'> : +2348099757823</i><br/>
+									| Email Address : nitecocyberlinks@gmail.com
+
+					ul
+						li
+							a(href ='/about') About Us
+						| |
+						li
+							a(href ='/contact') Contact Us
+						| |
+						li
+							a(href ='/privacy-policy') Privacy Policy
+					p &copy; Niteco Cyber Links 2019 | All Rights Reserved.
+

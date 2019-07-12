@@ -1,0 +1,8 @@
+extends layout
+
+block content
+	
+	h1 #{content.title}
+	
+	.article
+			p !{(content.content).replace(/\n/g , '<br/>')}
