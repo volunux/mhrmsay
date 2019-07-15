@@ -10,13 +10,17 @@ const cookieParser = require('cookie-parser');
 
 const logger = require('morgan');
 
-const passport = require('passport');
+var compression = require('compression');
 
-require('./app_api/models/db');
+var helmet = require('helmet');
+
+//const passport = require('passport');
+
+//require('./app_api/models/db');
 
 const indexRouter = require('./app_server/routes/index');
 
-require('./app_api/config/passport');
+//require('./app_api/config/passport');
 
 const usersRouter = require('./app_server/routes/users');
 
@@ -29,24 +33,10 @@ app.set('views', path.join(__dirname, 'app_server' , 'views'));
 																																																											app.use(express.json());
 																																																																								app.use(express.urlencoded({ extended: false }));																			
 app.use(cookieParser());
-													app.use(express.static(path.join(__dirname, 'public')));
+													app.use(compression());
+																									app.use(helmet());
+																																			app.use(express.static(path.join(__dirname, 'public')));
 																																																																													app.use(passport.initialize());
-app.use((req, res, next) => {
-																res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept, Authorization , token');
-																																																																											next();
-});
-
-app.use((req , res , next) => {
-
-																	console.log(req);
-
-																	console.log('Hello World');
-
-																	console.log(res);
-
-																	next();
-})
-
 app.use('/' , indexRouter);
 														app.use('/' , usersRouter);
 

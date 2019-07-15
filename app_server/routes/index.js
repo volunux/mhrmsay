@@ -16,16 +16,16 @@ const auth = jwt({
 });
 
 
-router.get('/'											,									nitecoCtrl.homepage);
+router.get('/'												,									nitecoCtrl.homepage);
 
-router.get('/blog'									,									nitecoCtrl.blog);
+//router.get('/blog'									,									nitecoCtrl.blog);
 
-router.get('/blog/:article'					,									nitecoCtrl.blogArticle);
+//router.get('/blog/:article'					,									nitecoCtrl.blogArticle);
 
 
-router.get('/add/'									,									nitecoCtrl.createArticle);
+//router.get('/add/'									,									nitecoCtrl.createArticle);
 
-router.post('/add/'									,									nitecoCtrl.submitArticle);
+//router.post('/add/'									,									nitecoCtrl.submitArticle);
 
 
 
