@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
-
-const openingTimeSchema = new mongoose.Schema({
+//const mongoose = require('mongoose');
+/*
+//const openingTimeSchema = new mongoose.Schema({
 																								'days' : {
 																														'type' : String ,
 																																							'required' : true
@@ -14,7 +14,7 @@ const openingTimeSchema = new mongoose.Schema({
 																																	});
 
 
-const reviewSchema = new mongoose.Schema({
+//const reviewSchema = new mongoose.Schema({
 																						'author' : {'type' : String ,
 
 																												'required' : true
@@ -35,7 +35,7 @@ const reviewSchema = new mongoose.Schema({
 																																																																																					}
 																																	});
 
-const locationSchema = new mongoose.Schema({
+//const locationSchema = new mongoose.Schema({
 
 				'name' : {
 										'type' : String ,
@@ -57,6 +57,9 @@ const locationSchema = new mongoose.Schema({
 																															'reviews' : [reviewSchema]
  	});
 
-locationSchema.index({'coords' : '2dsphere'});
+//locationSchema.index({'coords' : '2dsphere'});
 
-mongoose.model('Location', locationSchema);
+//mongoose.model('Location', locationSchema);
+
+
+*/

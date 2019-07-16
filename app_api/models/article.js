@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
+//const mongoose = require('mongoose');
 
-
-const reviewSchema = new mongoose.Schema({
+/*
+//const reviewSchema = new mongoose.Schema({
 
 			'author' : {
 										'type' : String ,
@@ -18,9 +18,9 @@ const reviewSchema = new mongoose.Schema({
 																		'type': Date ,
 																										'default': Date.now
 														}
-						});
+	//					});
 
-const articleSchema = new mongoose.Schema({
+//const articleSchema = new mongoose.Schema({
 
 				'articleTitle' : {
 														'type' : String ,
@@ -43,6 +43,8 @@ const articleSchema = new mongoose.Schema({
 											} ,
 
 												'reviews' : [reviewSchema]
- 	});
+ //	});
 
-mongoose.model('Article', articleSchema);
+//mongoose.model('Article', articleSchema);
+
+*/

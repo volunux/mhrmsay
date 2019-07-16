@@ -6,14 +6,14 @@ const nitecoCtrl = require('../controllers/niteco');
 
 const othersCtrl = require('../controllers/others');
 
-const jwt = require('express-jwt');
+//const jwt = require('express-jwt');
 
-const auth = jwt({
+//const auth = jwt({
 
-	'secret' : process.env.JWT_SECRET ,
-																			'userProperty' : 'payload'
+//	'secret' : process.env.JWT_SECRET ,
+	//																		'userProperty' : 'payload'
 
-});
+//});
 
 
 router.get('/'												,									nitecoCtrl.homepage);
