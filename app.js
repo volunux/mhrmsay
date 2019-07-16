@@ -22,8 +22,6 @@ const indexRouter = require('./app_server/routes/index');
 
 //require('./app_api/config/passport');
 
-const usersRouter = require('./app_server/routes/users');
-
 const app = express();
 		
 
@@ -38,7 +36,6 @@ app.use(cookieParser());
 																																			app.use(express.static(path.join(__dirname, 'public')));
 																																																																							//						app.use(passport.initialize());
 app.use('/' , indexRouter);
-														app.use('/' , usersRouter);
 
 
 app.use((req, res, next) => {	
