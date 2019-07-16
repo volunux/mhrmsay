@@ -1,10 +1,10 @@
+/*
+
 //const passport = require('passport');
 
 //const LocalStrategy = require('passport-local').Strategy;
 
 //const mongoose = require('mongoose');
-
-const User = mongoose.model('User');
 
 passport.use(new LocalStrategy({
 																	'usernameField' : 'email'
@@ -23,3 +23,5 @@ passport.use(new LocalStrategy({
 																																																																					return done(null, user);
 																																										});
 																																						}))
+
+*/

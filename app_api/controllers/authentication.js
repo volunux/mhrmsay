@@ -3,7 +3,7 @@
 //const mongoose = require('mongoose');
 
 //const User = mongoose.model('User');
-
+/*
 	const register = (req , res) => {
 
 		if (!req.body.name || !req.body.email || !req.body.password) {
@@ -78,3 +78,5 @@ module.exports = {
 
 };
 
+
+*/

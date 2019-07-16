@@ -1,7 +1,3 @@
-//const mongoose = require('mongoose');
-
-// const Article = mongoose.model('Article');
-
 module.exports = {
 
 		'homepage' : (req , res) => {
